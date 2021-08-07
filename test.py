@@ -9,3 +9,4 @@ for f in os.listdir(mypath):
         im.rotate(270).resize((128,128)).save(mypath + "/opt/icons/"+f+".jpeg")
     except OSError:
         pass
+    
